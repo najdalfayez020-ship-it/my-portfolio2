@@ -1,0 +1,89 @@
+ /* Banner Section */
+    .banner {
+      background-image: url("banner.png"); /* Relative to CSS file */
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .navbar-center {
+      flex: 1;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-wrapper input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+h5{
+  color: white;
+}
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .site-name {
+      font-size: 34px;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+    }
+
+.language-container {
+      position: relative;
+    }
+
+    .globe-icon {
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+    .language-box {
+      display: none;
+      position: absolute;
+      top: 35px;
+      left: 0;
+      background-color: #fff;
+      color: #000;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      z-index: 999;
+      overflow: hidden;
+    }
+
+    .language-box button {
+      display: block;
+      padding: 10px 20px;
+      width: 100%;
+      border: none;
+      background: none;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .language-box button:hover {
+      background-color: #f0f0f0;
+    }
